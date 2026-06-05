@@ -1,235 +1,361 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta charset="UTF-8">
+    <title>TRIN EDUCOURSE</title>
 
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <title>TRIN EDUCOURSE</title>
-
-  <!-- Google Font -->
-  <link rel="preconnect"
-        href="https://fonts.googleapis.com">
-
-  <link rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet"
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
-
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- Navbar -->
-  <header>
+    <!-- ================= NAVBAR ================= -->
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>TRIN EDUCOURSE</span>
+            </div>
 
-    <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#kursus">Kursus</a></li>
+                <li><a href="#mentor">Mentor</a></li>
+                <li><a href="#testimoni">Testimoni</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
 
-      <div class="logo">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
 
-        <i class="fa-solid fa-graduation-cap"></i>
+        <div class="hero-text">
 
-        <span>TRIN EDUCOURSE</span>
+            <span class="badge">
+                Platform Belajar Digital Modern
+            </span>
 
-      </div>
+            <h1>
+                Tingkatkan Skill Digital
+                Untuk Masa Depanmu
+            </h1>
 
-      <ul>
+            <p>
+                Belajar Web Development, UI/UX Design,
+                dan Digital Marketing bersama mentor
+                profesional melalui platform pembelajaran
+                online yang interaktif dan mudah diakses.
+            </p>
 
-        <li><a href="#home" class="active">Home</a></li>
+            <div class="hero-buttons">
+                <a href="#kursus" class="btn">
+                    Mulai Belajar
+                </a>
 
-        <li><a href="#tentang">Tentang</a></li>
+                <a href="#tentang" class="btn-outline">
+                    Pelajari Lebih Lanjut
+                </a>
+            </div>
 
-        <li><a href="#kursus">Kursus</a></li>
+        </div>
 
-        <li><a href="#mentor">Mentor</a></li>
+        <div class="hero-image">
 
-        <li><a href="#faq">FAQ</a></li>
+            <img src="https://superconeng.com/wp-content/uploads/2023/11/Web-Development.webp"
+                alt="Pembelajaran Online"
+                loading="lazy">
+        </div>
 
-        <li><a href="#kontak">Kontak</a></li>
+    </section>
 
-      </ul>
+    <!-- ================= STATISTIK ================= -->
+    <section class="stats">
 
-    </nav>
+        <div class="stat-box">
+            <i class="fa-solid fa-users"></i>
+            <h3>500+</h3>
+            <p>Siswa Aktif</p>
+        </div>
 
-  </header>
+        <div class="stat-box">
+            <i class="fa-solid fa-user-graduate"></i>
+            <h3>30+</h3>
+            <p>Mentor Profesional</p>
+        </div>
 
-  <!-- Hero -->
-  <section class="hero" id="home">
+        <div class="stat-box">
+            <i class="fa-solid fa-book-open"></i>
+            <h3>100+</h3>
+            <p>Kursus Online</p>
+        </div>
 
-    <!-- Text -->
-    <div class="hero-text">
+        <div class="stat-box">
+            <i class="fa-solid fa-certificate"></i>
+            <h3>95%</h3>
+            <p>Tingkat Kepuasan</p>
+        </div>
 
-      <h1>
-        Belajar Skill Digital
-        Lebih Mudah
-      </h1>
+    </section>
 
-      <p>
-        Platform pembelajaran online modern
-        untuk meningkatkan kemampuan digital
-        melalui kursus berkualitas dan mentor profesional.
-      </p>
+    <!-- ================= TENTANG ================= -->
+    <section class="section" id="tentang">
 
-      <a href="#kursus" class="btn">
+        <h2>Tentang Kami</h2>
 
-        Mulai Belajar
-
-        <i class="fa-solid fa-arrow-right"></i>
-
-      </a>
-
-    </div>
-
-    <!-- Image -->
-    <div class="hero-image">
-
-      <img src="https://superconeng.com/wp-content/uploads/2023/11/Web-Development.webp"
-           alt="Online Learning">
-
-    </div>
-
-  </section>
-
-  <!-- Statistik -->
-  <section class="stats">
-
-    <div class="stat-box">
-
-      <div class="icon-circle">
-        <i class="fa-solid fa-users"></i>
-      </div>
-
-      <div>
-
-        <h3>500+</h3>
-
-        <p>Siswa Aktif</p>
-
-      </div>
-
-    </div>
-
-    <div class="stat-box">
-
-      <div class="icon-circle">
-        <i class="fa-solid fa-user-graduate"></i>
-      </div>
-
-      <div>
-
-        <h3>30+</h3>
-
-        <p>Mentor Profesional</p>
-
-      </div>
-
-    </div>
-
-    <div class="stat-box">
-
-      <div class="icon-circle">
-        <i class="fa-solid fa-book-open"></i>
-      </div>
-
-      <div>
-
-        <h3>100+</h3>
-
-        <p>Kursus Online</p>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- Tentang -->
-  <section class="section" id="tentang">
-
-    <h2>Tentang Kami</h2>
-
-    <div class="line"></div>
-
-    <p>
-      TRIN EDUCOURSE merupakan platform pembelajaran
-      digital yang menyediakan kursus online di bidang
-      Web Development, UI/UX Design, dan teknologi modern.
-    </p>
-
-  </section>
-
-  <!-- Kursus -->
-  <section class="section" id="kursus">
-
-    <h2>Kursus Populer</h2>
-
-    <div class="line"></div>
-
-    <div class="card-container">
-
-      <div class="card">
-
-        <i class="fa-solid fa-code"></i>
-
-        <h3>Web Development</h3>
+        <div class="line"></div>
 
         <p>
-          Belajar HTML, CSS, JavaScript
-          hingga framework modern.
+            TRIN EDUCOURSE adalah platform pembelajaran
+            digital yang membantu siswa dan profesional
+            meningkatkan keterampilan di bidang teknologi
+            dan bisnis digital melalui kursus berkualitas,
+            mentor berpengalaman, serta materi yang selalu
+            mengikuti perkembangan industri.
         </p>
 
-      </div>
+    </section>
 
-      <div class="card">
+    <!-- ================= KURSUS ================= -->
+    <section class="section" id="kursus">
 
-        <i class="fa-solid fa-pen-ruler"></i>
+        <h2>Kursus Populer</h2>
 
-        <h3>UI/UX Design</h3>
+        <div class="line"></div>
+
+        <div class="card-container">
+
+            <div class="card">
+
+                <i class="fa-solid fa-code"></i>
+
+                <h3>Web Development</h3>
+
+                <p>
+                    Belajar HTML, CSS, JavaScript,
+                    Bootstrap, hingga framework modern.
+                </p>
+
+                <span class="course-info">
+                    Durasi: 12 Minggu
+                </span>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-pen-ruler"></i>
+
+                <h3>UI/UX Design</h3>
+
+                <p>
+                    Pelajari desain antarmuka modern,
+                    wireframe, prototyping, dan Figma.
+                </p>
+
+                <span class="course-info">
+                    Durasi: 8 Minggu
+                </span>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-chart-line"></i>
+
+                <h3>Digital Marketing</h3>
+
+                <p>
+                    Kuasai SEO, Social Media Marketing,
+                    dan strategi pemasaran digital.
+                </p>
+
+                <span class="course-info">
+                    Durasi: 10 Minggu
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= MENTOR ================= -->
+    <section class="section mentor-section" id="mentor">
+
+        <h2>Mentor Profesional</h2>
+
+        <div class="line"></div>
+
+        <div class="card-container">
+
+            <div class="card mentor-card">
+
+                <img
+                src="https://randomuser.me/api/portraits/men/32.jpg"
+                alt="Mentor">
+
+                <h3>Andi Pratama</h3>
+
+                <p>Senior Web Developer</p>
+
+            </div>
+
+            <div class="card mentor-card">
+
+                <img
+                src="https://randomuser.me/api/portraits/women/44.jpg"
+                alt="Mentor">
+
+                <h3>Siti Rahma</h3>
+
+                <p>UI/UX Designer</p>
+
+            </div>
+
+            <div class="card mentor-card">
+
+                <img
+                src="https://randomuser.me/api/portraits/men/76.jpg"
+                alt="Mentor">
+
+                <h3>Budi Santoso</h3>
+
+                <p>Digital Marketing Expert</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= TESTIMONI ================= -->
+    <section class="section" id="testimoni">
+
+        <h2>Testimoni Siswa</h2>
+
+        <div class="line"></div>
+
+        <div class="card-container">
+
+            <div class="card">
+
+                <p>
+                    "Materi sangat mudah dipahami dan
+                    mentornya sangat membantu."
+                </p>
+
+                <h4>- Rizky</h4>
+
+            </div>
+
+            <div class="card">
+
+                <p>
+                    "Setelah mengikuti kursus ini saya
+                    lebih percaya diri membuat website."
+                </p>
+
+                <h4>- Nadya</h4>
+
+            </div>
+
+            <div class="card">
+
+                <p>
+                    "Belajar online terasa lebih seru dan
+                    terstruktur."
+                </p>
+
+                <h4>- Dimas</h4>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="section" id="faq">
+
+        <h2>Pertanyaan Umum</h2>
+
+        <div class="line"></div>
+
+        <div class="faq-box">
+            <h3>Apakah kursus dapat diakses kapan saja?</h3>
+            <p>Ya, seluruh materi dapat diakses secara online selama masa kursus.</p>
+        </div>
+
+        <div class="faq-box">
+            <h3>Apakah mendapatkan sertifikat?</h3>
+            <p>Ya, peserta yang menyelesaikan kursus akan memperoleh sertifikat.</p>
+        </div>
+
+        <div class="faq-box">
+            <h3>Apakah cocok untuk pemula?</h3>
+            <p>Tentu, materi disusun mulai dari dasar hingga tingkat lanjut.</p>
+        </div>
+
+    </section>
+
+    <!-- ================= CTA ================= -->
+    <section class="cta">
+
+        <h2>Siap Mengembangkan Skill Digital?</h2>
 
         <p>
-          Mempelajari desain antarmuka
-          dan pengalaman pengguna.
+            Bergabunglah bersama ratusan siswa lainnya
+            dan mulai perjalanan belajar Anda hari ini.
         </p>
 
-      </div>
+        <a href="#kursus" class="btn">
+            Daftar Sekarang
+        </a>
 
-      <div class="card">
+    </section>
 
-        <i class="fa-solid fa-chart-line"></i>
+    <!-- ================= FOOTER ================= -->
+    <footer id="kontak">
 
-        <h3>Digital Marketing</h3>
+        <h3>TRIN EDUCOURSE</h3>
 
         <p>
-          Belajar strategi pemasaran digital modern.
+            Platform pembelajaran digital modern untuk
+            meningkatkan keterampilan masa depan.
         </p>
 
-      </div>
+        <div class="footer-contact">
 
-    </div>
+            <p>
+                <i class="fa-brands fa-instagram"></i>
+                @trineducourse
+            </p>
 
-  </section>
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                224443079@mhs.polman-bandung.ac.id
+            </p>
 
-  <!-- Footer -->
-  <footer id="kontak">
+        </div>
 
-    <p>Instagram: @trineducourse</p>
+        <p class="copyright">
+            © 2026 TRIN EDUCOURSE. All Rights Reserved.
+        </p>
 
-    <p>Email: 224443079@mhs.polman-bandung.ac.id</p>
-
-    <p>© 2026 TRIN EDUCOURSE</p>
-
-  </footer>
+    </footer>
 
 </body>
 </html>
